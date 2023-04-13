@@ -1,0 +1,437 @@
+p {  text-align: unset;
+    font-size: 17px;
+   text-decoration: solid;
+   font-family: Overpass_regular;
+   max-width: 550px;
+   bottom: 30px;
+   height: 100px;
+   margin-left: 40px;
+   line-height: 1.5;
+ }
+
+
+    nav { background-image: linear-gradient(to right,rgb(179, 76, 227) , rgb(132, 150, 236));
+         text-align: right;
+        padding: 40px;
+        position: relative;
+        top: 0px;
+        left: 0px;
+        right: 0px;}
+
+        .logo { position: absolute;
+            top: 20px;
+            left: 25px;}
+
+            footer {background-color: rgb(173, 164, 243);
+                font-size: 10px;
+                padding: 15px;
+                text-align: center;
+                position: fixed;
+                bottom: 3px;
+                width: 100%;
+                height: 100px;
+                font-family: POPPINS;
+                }
+
+h4 {text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-size: 20px;
+    margin: 10px;
+    font-family: POPPINS;
+    text-align: right;}
+
+    h1 {right: 10px;
+        font-family: POPPINS;
+        src: url(../fonte/Poppins-Bold.otf);
+        color: #000000;
+        margin-left: 40px;
+        
+    }
+
+nav a { text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-size: 30px;
+    margin: 18px;
+    font-family: POPPINS;}
+
+.bolhas {width: 200px;
+    top: 250px;
+    margin: auto;
+    bottom: -200px;
+    position: fixed
+}
+
+
+.forma { position: absolute;
+    height: 200px;
+    width: 400px;
+    right: 5px;
+    bottom: 80px;}
+
+.segundo { position: absolute;
+    top: 170px;
+    left: 25px;}
+
+  nav a {opacity: 5;}
+    nav a:hover{ background-color: #000000;color: rgb(173, 164, 243); border-radius: 10px;}
+
+    .laranja {  background: rgb(215, 215, 244);
+        position: fixed;
+        width: 1920px;
+        height: 250px;
+        right:  5px;}
+
+
+        .foto {width: 400px;
+            height: 400px;
+            position: absolute;
+            top: 220px;
+            right: 50px;
+        }
+
+        .espa {width: 400px;
+          height: 400px;
+          position: absolute;
+          top: 200px;
+          right: 460px;
+      }
+
+        .icon { position: absolute;
+            top: 12px;
+            left: 1320px;
+             height: 100px;}
+
+             p { animation-duration: 3s;
+                animation-name: slidein;
+              }
+              
+              @keyframes slidein {
+                from {
+                  margin-top: 100%;
+                  width: 300%
+                }
+              
+                to {
+                  margin-top: 0%;
+                  width: 100%;
+                }
+            }
+            .rec-sq {
+                display: flex;
+                gap: 2em;
+                margin: 2em;
+               }
+              
+               .rectangle {
+                width: 60rem;
+                height: 6rem;
+                background: rgb(132, 150, 236);
+                left: 20px;
+                top: 20px;
+               }
+           
+           
+               body { 
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+               
+          }
+          
+          #rodape {
+                 width: 100%;
+                 position: fixed;
+                 bottom: 0;
+                 left: 0;
+          }
+
+          #rodape img {
+            position: fixed;
+            bottom: 0;
+            right: 0;
+        }
+          
+
+        .segundo { position: absolute;
+            top: 720px;
+            left: 25px;}     
+            
+            
+            .LANA { position: absolute;
+                top: 150px;
+                right: 25px;
+                height: 300px;
+                width: 300px;
+              }
+              
+                .KNOOR { position: absolute;
+                  top: 150px;
+                  right: 350px;
+                  height: 300px;
+                  width: 300px;
+                }
+              
+              .scio { position: absolute;
+                top: 150px;
+                right: 675px;
+                height: 300px;
+                width: 300px;
+              }
+              
+              .bem  { position: absolute;
+                top: 490px;
+                right: 25px;
+                height: 300px;
+                width: 300px;
+              }
+              
+              .revista  { position: absolute;
+                top: 490px;
+                right: 350px;
+                height: 300px;
+                width: 300px;
+              }
+              
+              .chazinho  { position: absolute;
+                top: 490px;
+                right: 675px;
+                height: 300px;
+                width: 300px;
+              }
+              
+              
+              .LANA{transition: all 1s; cursor: pointer;}
+              .LANA:hover{filter: blur(5px);}
+
+              .bem{transition: all 1s; cursor: pointer;}
+              .bem:hover{filter: blur(5px);}
+
+              .KNOOR{transition: all 1s;border: 5px solid transparent;}
+              .KNOOR:hover{border: 10px solid rgb(5, 97, 2);border-radius: 20%;}
+
+              .revista{transition: all 1s;border: 5px solid transparent;}
+              .revista:hover{border: 10px solid rgb(35, 18, 1);border-radius: 20%;}
+
+.makro {position: absolute;
+        top: 200px;
+        right: 25px;
+       height: 500px;
+       width: 500px;
+}
+
+.get {position: absolute;
+  top: 200px;
+  right: 550px;
+ height: 500px;
+ width: 500px;
+}
+        
+.borboleta { position: absolute;
+  top: 105px;
+  left: 1225px;
+   height: 100px;
+ 
+}
+
+.modernismo {position: absolute;
+  top: 150px;
+  right: 25px;
+  height: 400px;
+  width: 300px;
+}
+
+.ft { position: absolute;
+  top: 200px;
+  right: 350px;
+  height: 400px;
+  width: 400px;
+}
+
+.aura { position: absolute;
+  top: 370px;
+  right: 780px;
+  height: 300px;
+  width: 300px;
+}
+
+.modernismo
+{
+        opacity:0.5;
+}
+.modernismo:hover
+{
+        opacity:1;
+}
+
+.ft
+{
+        opacity:0.5;
+}
+.ft:hover
+{
+        opacity:1;
+}
+
+
+.calend {position: absolute;
+  top: 370px;
+  right: 780px;
+  height: 400px;
+  width: 300px;
+}
+
+.calend
+{
+        opacity:0.5;
+}
+.calend:hover
+{
+        opacity:1;
+}
+
+.fotinha { position: absolute;
+  top: 570px;
+  right: 380px;
+  height: 70px;
+  width: 180px;
+}
+
+.momo {position: absolute;
+  top: 530px;
+  right: 25px;
+  height: 70px;
+  width: 250px;
+}
+
+.caca {position: absolute;
+  top: 380px;
+  right: 790px;
+  height: 60px;
+  width: 250px;
+}
+
+figure.card {top: -200px;
+             left:  40px;
+}
+
+figure.card {
+  font-family: POPPINS;
+  position: relative;
+  overflow: hidden;
+  margin: auto;
+  min-width: 430px;
+  max-width: 515px;
+  max-height: 430px;
+  width: 100%;
+  color: #1d0121;
+  text-align: left;
+  font-size: 16px;
+  background-color: #000000;
+  border-radius: 8px;
+}
+figure.card:after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -100%;
+  right: -20%;
+  content: '';
+  background-color: rgba(132, 149, 236, 0.441);
+  -webkit-transform: skew(20deg) translateX(-75%);
+  transform: skew(20deg) translateX(-75%);
+  -webkit-transition: all 0.50s ease;
+  transition: all 0.50s ease;
+}
+figure.card * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+figure.card img {
+  max-width: 100%;
+  top: 0px;
+}
+figure.card figcaption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  padding: 20px;
+}
+figure.card h2,
+figure.card .links {
+  width: 100%;
+  margin: 10;
+  padding: 0;
+}
+figure.card h2 {
+  line-height: 1.3em;
+  font-weight: bold;
+  font-size: 1.3em;
+  margin-bottom: 12px;
+}
+figure.card .links {
+  
+  font-size: 1em;
+  letter-spacing: 3px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+figure.card .links li {
+  -webkit-transform: translateX(-40px);
+  transform: translateX(-40px);
+  opacity: 0;
+  list-style: none;
+}
+figure.card a {
+  padding: 2px 0;
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+}
+figure.card a:hover {
+  color: #b62fc2;
+}
+figure.card:hover:after,
+figure.card.hover:after {
+  -webkit-transform: skew(20deg) translateX(0%);
+  transform: skew(20deg) translateX(0%);
+}
+figure.card:hover img,
+figure.card.hover img {
+  zoom: 1;
+  filter: alpha(opacity=50);
+  -webkit-opacity: 0.5;
+  opacity: 0.5;
+}
+figure.card:hover li,
+figure.card.hover li {
+  opacity: 1;
+  -webkit-transform: translateX(0px);
+  transform: translateX(0px);
+}
+figure.card:hover li:first-child,
+figure.card.hover li:first-child {
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+}
+figure.card:hover li:nth-child(2),
+figure.card.hover li:nth-child(2) {
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+figure.card:hover li:nth-child(3),
+figure.card.hover li:nth-child(3) {
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+figure.card:hover li:nth-child(4),
+figure.card.hover li:nth-child(4) {
+  -webkit-transition-delay: 0.4s;
+  transition-delay: 0.4s;
+}
